@@ -12,4 +12,3 @@ services:
             - ALLOWED_ORIGINS=${ALLOWED_ORIGINS}
             - JWT_SECRET=${JWT_SECRET}
             - TOKEN_EXPIRATION=${TOKEN_EXPIRATION}
-        restart: always
